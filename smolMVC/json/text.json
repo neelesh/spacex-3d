@@ -1,0 +1,50 @@
+{
+	"home": [
+	  	{
+			"title": "SpaceX",
+			"subtitle": "Occupy Mars",
+			"description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+			"qoute":"",
+			"qouteAuthor":"",
+			"slide1":"",
+			"slide2":"",
+			"slide3":"",
+			"slide4":"",
+			"image":"",
+		  	"video":""
+		}
+	],
+	"about": [
+		{
+			"title": "About SpaceX",
+			"subtitle": "Reusable Rockets",
+			"description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+		  	"image":"",
+		  	"video":""
+		}
+	],
+	"rockets": [
+		{
+			"title": "Starhopper",
+			"subtitle": "Practice Makes Perfect",
+			"description": "The construction of Starhopper was begun in early December 2018 and the external frame and skin was complete by 10 January 2019. Constructed outside in the open on a SpaceX property just two miles from Boca Chica Beach in South Texas, the external body of the rocket rapidly came together in less than six weeks. Originally thought by watchers of construction at the SpaceX South Texas Launch Site to be the initial construction of a large water tower, the stainless steel vehicle was built by welders and construction workers in more of a shipyard form of construction than traditional aerospace manufacturing. The full Starhopper vehicle is 9 meters (30 ft) in diameter and was originally 39 meters (128 ft) tall in January 2019.",
+		  	"image":"",
+			"model":""
+		},
+		{
+			"title": "Starship",
+			"subtitle": "The Dream",
+			"description": "Starship is the fully-reusable second stage and spaceship of the SpaceX BFR rocket. It is a long-duration cargo- and passenger-carrying spacecraft that also serves as the BFR launch vehicle second stage and integrated payload section. Two 9 m (30 ft)-diameter stainless steel Starship test articles are being built, and one had already begun integrated system testing by March 2019. The Starship test flight rocket—Starhopper—will be used for initial integrated testing of the Raptor rocket engine with a flight-capable propellant structure as well as for low-altitude, low-velocity flight testing of launches and landings. It began hotfire testing in April. A second test article, the Starship orbital prototype is planned to be used after mid-2019 for high-altitude, high-velocity testing. Integrated system testing of Starhopper, including the first flight test, began in April 2019.",
+		  	"image":"",
+			"model":""
+		},
+		{
+			"title": "Super Heavy Booster",
+			"subtitle": "Maximum Effort",
+			"description": "Super Heavy, the first stage, or booster, of the SpaceX next-generation launch vehicle is 63 meters (207 ft) long and 9 m (30 ft) in diameter and expected to have a gross liftoff mass of 3,065,000 kg (6,757,000 lb) It is to be constructed of stainless steel tanks and structure, holding subcooled liquid methane and liquid oxygen (CH4/LOX) propellants, powered by 31 Raptor rocket engines providing 61.8 MN (13,900,000 lbf) total liftoff thrust. The booster is projected to return to land on the launch mount, although it might land on legs initially.",
+		  	"image":"",
+			"model":""
+		}
+	]
+
+}
