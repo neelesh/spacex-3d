@@ -73,7 +73,7 @@
             <hr class="my-4">
             <h6> - ELON MUSK, SPACEX</h6>
             <!-- <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              <a class="btn btn-primary btn-lg"  role="button">Learn more</a>
             </p> -->
           </div>
 

@@ -26,7 +26,7 @@ class Model
         return array(
             'rocket1' => 'starhopper',
             'rocket2' => 'starship',
-            'rocket3' => 'booster',
+            'rocket3' => 'superheavy_booster',
             'rocket4' => 'its',
         );
     }
