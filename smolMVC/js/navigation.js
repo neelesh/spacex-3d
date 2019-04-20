@@ -27,6 +27,13 @@ function booster(){
 }
 
 
+function booster(){
+    hideModels();
+    $("#its").show();
+
+}
+
+
 function about(){
     hideAll();
     $("#about").show();
@@ -37,6 +44,7 @@ function hideModels(){
     $("#starhopper").hide();
     $("#starship").hide();
     $("#booster").hide();
+    $("#its").hide();
 }
 
 function hideAll(){

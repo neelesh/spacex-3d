@@ -2,62 +2,18 @@
 <html>
 
 <head>
-    <title>SpaceX</title>
-    
-    <link href="css/site.css" rel="stylesheet" />
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css" rel="stylesheet" />
+    <?php
+        error_reporting(E_ALL | E_STRICT);
+        ini_set('display_errors', 1);
+        require 'app/mvc.php';
+    ?>
+
+    <?php include "app/view/templates/head.php";?>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-        
-        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      
-    <script type='text/javascript' src='http://www.x3dom.org/x3dom/release/x3dom.js'></script>
-    <script type='text/javascript' src='js/model-interaction.js'></script>
-    <script type='text/javascript' src='js/navigation.js'></script>
-     
 </head>
 
-<body onload="home()">
-    
-    <?php include("app/view/templates/navigation.php");?>
+    <body onload="home();">
 
-    <?php include("app/view/home.php");?>
-
-    <?php include("app/view/about.php");?>
-
-    <?php include("app/view/rockets.php");?>
-
-    <?php include("app/view/templates/contact.php");?>
-
-
-<!-- 
-    <nav class="navbar navbar-default navbar-fixed-bottom navbar-dark bg-dark" role="navigation">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"></a>
-        </div>
-        <div>
-            <ul class="nav navbar-nav">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-    </nav> -->
-
-
-
-
-
-</body>
-
+    </body>
 </html>

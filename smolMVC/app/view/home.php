@@ -1,4 +1,6 @@
 
+<?php include "app/view/templates/navigation.php";?>
+<?php include "app/view/templates/contact.php";?>
     <div id="home" class="container">
             <div class="row">
             <!-- COROUSEL -->
@@ -16,28 +18,28 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/16x9.jpg" alt="First slide">
+                            <img class="d-block w-100" src="img/<?php echo $slide1 ?>" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5> 1 </h5>
                                 <p> ... </p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/16x9.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="img/<?php echo $slide2 ?>" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5> 2 </h5>
                                 <p> ... </p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/16x9.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="img/<?php echo $slide3 ?>" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5> 3 </h5>
                                 <p> ... </p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/16x9.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="img/<?php echo $slide4 ?>" alt="Fo slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5> 4 </h5>
                                 <p> ... </p>
@@ -67,7 +69,7 @@
 
             <h5>"You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars."
             </h5>
-            
+
             <hr class="my-4">
             <h6> - ELON MUSK, SPACEX</h6>
             <!-- <p class="lead">
