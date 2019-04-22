@@ -81,10 +81,10 @@ VALUES (6, 'Dragon Capsule', '', 'Dragon is a reusable cargo spacecraft devel
 				// Don't worry about this, it's just a simple test to check we can output a value from the database in a while loop
 				// echo '</br>' . $data['x3dModelTitle'];
 				// Write the database conetnts to the results array for sending back to the view
-				$result[$i]['title'] = $data['title']; // Not used in the view, instead using the fake dbGetBrand() function above
-				$result[$i]['subtitle'] = $data['subtitle'];
-				$result[$i]['description'] = $data['description'];
-				$result[$i]['fileName'] = $data['fileName'];
+				$result[$data['fileName']]['title'] = $data['title']; // Not used in the view, instead using the fake dbGetBrand() function above
+				$result[$data['fileName']]['subtitle'] = $data['subtitle'];
+				$result[$data['fileName']]['description'] = $data['description'];
+				$result[$data['fileName']]['fileName'] = $data['fileName'];
                 //increment the row index
                 
 				$i++;
