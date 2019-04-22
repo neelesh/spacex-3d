@@ -22,14 +22,14 @@ function starship(){
 
 function booster(){
     hideModels();
-    $("#superheavy_booster").show();
+    $("#booster").show();
 
 }
 
 
-function its(){
+function capsule(){
     hideModels();
-    $("#its").show();
+    $("#capsule").show();
 
 }
 
@@ -43,8 +43,8 @@ function about(){
 function hideModels(){
     $("#starhopper").hide();
     $("#starship").hide();
-    $("#superheavy_booster").hide();
-    $("#its").hide();
+    $("#booster").hide();
+    $("#capsule").hide();
 }
 
 function hideAll(){

@@ -29,8 +29,8 @@ function back(namespace) {
 }
 
 
-function top(namespace) {
-    document.getElementById(namespace+'__TOP').setAttribute('bind', 'true');
+function above(namespace) {
+    document.getElementById(namespace+'__ABOVE').setAttribute('bind', 'true');
 }
 
 

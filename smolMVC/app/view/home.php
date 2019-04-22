@@ -7,7 +7,7 @@
             <div class="col-sm-12">
                 <br>
 
-                <h1 class="heading">OCCUPY MARS</h1>
+                <h1 class="heading"><?php echo strtoupper( $data['mars']['title']);?></h1>
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -18,31 +18,31 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/<?php echo $slide1 ?>" alt="First slide">
+                            <img class="d-block w-100" src="img/slides/<?php echo $data['starhopper']['fileName'].= '.jpg';?>" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5> 1 </h5>
-                                <p> ... </p>
+                                <h5> <?php echo strtoupper( $data['starhopper']['title'])?> </h5>
+                                <!-- <p> ... </p> -->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/<?php echo $slide2 ?>" alt="Second slide">
+                            <img class="d-block w-100" src="img/slides/<?php echo $data['starship']['fileName'].= '.jpg';?>" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5> 2 </h5>
-                                <p> ... </p>
+                                <h5> <?php echo strtoupper( $data['starship']['title'])?> </h5>
+                                <!-- <p> ... </p> -->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/<?php echo $slide3 ?>" alt="Third slide">
+                            <img class="d-block w-100" src="img/slides/<?php echo $data['booster']['fileName'].= '.jpg';?>" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5> 3 </h5>
-                                <p> ... </p>
+                                <h5> <?php echo strtoupper( $data['booster']['title'])?> </h5>
+                                <!-- <p> ... </p> -->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/<?php echo $slide4 ?>" alt="Fo slide">
+                            <img class="d-block w-100" src="img/slides/<?php echo $data['capsule']['fileName'].= '.jpg';?>" alt="Fo slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5> 4 </h5>
-                                <p> ... </p>
+                                <h5> <?php echo strtoupper( $data['capsule']['title'])?></h5>
+                                <!-- <p> ... </p> -->
                             </div>
                         </div>
                     </div>
@@ -67,11 +67,10 @@
 
         <div id="home" class="jumbotron">
 
-            <h5>"You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars."
-            </h5>
+            <h5>"<?php echo $data['mars']['description']?>"</h5>
 
             <hr class="my-4">
-            <h6> - ELON MUSK, SPACEX</h6>
+            <h6> - <?php echo strtoupper( $data['mars']['subtitle'])?></h6>
             <!-- <p class="lead">
               <a class="btn btn-primary btn-lg"  role="button">Learn more</a>
             </p> -->
