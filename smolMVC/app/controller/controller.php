@@ -33,34 +33,18 @@ class Controller {
 
 	function apiCreateTable()
 	{
-	  	// echo "Create table function";
 		$data = $this->model->dbCreateTable();
-		$this->load->view('viewMessage', $data);
 	}
+
 	function apiInsertData()
 	{
 		$data = $this->model->dbInsertData();
-	   	$this->load->view('viewMessage', $data);
-	}  
+	}
+
 	function apiGetData()
 	{
 		$data = $this->model->dbGetData();
-		$this->load->view('view3DAppData', $data);
-	}  
-	
-	function dbCreateTable()
-	{
-		echo "Create Table Function";
-	}
-
-	function dbInsertData()
-	{
-		echo "Data Insert Function";
-	}
-
-	function dbGetData()
-	{
-		echo "Data Read Function";
+		print json_encode($data);
 	}
 
 }
