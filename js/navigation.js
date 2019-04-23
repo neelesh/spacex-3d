@@ -5,18 +5,50 @@ function home(){
     $("#home").show();
 }
 
-function starhopper(){
+function rockets(){
     hideAll();
+    $("#rockets").show();
+}
+
+function starhopper(){
+    hideModels();
     $("#starhopper").show();
 }
+
+function starship(){
+    hideModels();
+    $("#starship").show();
+}
+
+function booster(){
+    hideModels();
+    $("#booster").show();
+
+}
+
+
+function capsule(){
+    hideModels();
+    $("#capsule").show();
+
+}
+
 
 function about(){
     hideAll();
     $("#about").show();
 }
 
+
+function hideModels(){
+    $("#starhopper").hide();
+    $("#starship").hide();
+    $("#booster").hide();
+    $("#capsule").hide();
+}
+
 function hideAll(){
     $("#home").hide();
     $("#about").hide();
-    $("#starhopper").hide();
+    $("#rockets").hide();
 }
