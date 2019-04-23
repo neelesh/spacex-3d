@@ -30,9 +30,20 @@
             </div>
         
 
+
+            <div class="jumbotron">
+
+            <h5><?php echo $value['description']?></h5>
+
+
         </div>
+    </div>
 
     <?php endforeach; ?>
+
+
     
+
+
 </div>
            
