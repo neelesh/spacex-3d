@@ -79,25 +79,6 @@
         <br>
 
 
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <img src="img/rockets/starhopper.jpg" class="img-rounded main-image pad-v" alt="STANDBY">
-                <h5 class="top-left">STARHOPPER</h5>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <img src="img/16x9.jpg" class="img-rounded main-image pad-v" alt="STANDBY">
-                <h5 class="bottom-left">STARSHIP</h5>
-
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <img src="img/16x9.jpg" class="img-rounded main-image pad-v" alt="STANDBY">
-                <h5 class="bottom-left">SUPER HEAVY</h5>
-
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <img src="img/16x9.jpg" class="img-rounded main-image pad-v" alt="STANDBY">
-                <h5 class="bottom-left">BIG FALCON ROCKET</h5>
-
-            </div>
-        </div>
-        </div>
+    <?php include "app/view/rocket_selection.php";?>
+        
+    </div>
