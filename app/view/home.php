@@ -71,9 +71,6 @@
 
             <hr class="my-4">
             <h6> - <?php echo strtoupper( $data['mars']['subtitle'])?></h6>
-            <!-- <p class="lead">
-              <a class="btn btn-primary btn-lg"  role="button">Learn more</a>
-            </p> -->
           </div>
 
         <br>

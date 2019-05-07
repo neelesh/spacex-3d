@@ -10,6 +10,11 @@ function rockets(){
     $("#rockets").show();
 }
 
+function beyond(){
+    hideAll();
+    $("#beyond").show();
+}
+
 function starhopper(){
     hideModels();
     $("#starhopper").show();
@@ -51,4 +56,5 @@ function hideAll(){
     $("#home").hide();
     $("#about").hide();
     $("#rockets").hide();
+    $("#beyond").hide();
 }

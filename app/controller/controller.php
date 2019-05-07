@@ -23,12 +23,17 @@ class Controller {
 		$data = $this->model->dbGetData()
 		;
         $this->load->view('home', $data);
-        $this->load->view('about', $data['elon']);
+		$this->load->view('about', $data['elon']);
+		
+        $this->load->view('beyond', $data);
 
 	
 		unset($data['mars']);
 		unset($data['elon']);
-        $this->load->view('rockets', $data);
+		$this->load->view('rockets', $data);
+
+
+
     }
     
 

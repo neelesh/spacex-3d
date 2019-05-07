@@ -29,6 +29,11 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="modal" data-target="#myModal" >Contact</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"  onclick="beyond()" >Beyond</a>
+                </li>
+
             </ul>
 
         </div>

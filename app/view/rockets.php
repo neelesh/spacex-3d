@@ -30,13 +30,16 @@
             </div>
         
 
+            
+            <div class=" col-sm-12">
+            <p class="p2">&nbsp;</p>
 
-            <div class="jumbotron">
+                <div class="jumbotron">
+                    <h5><?php echo $value['description']?></h5>
+                </div>
 
-            <h5><?php echo $value['description']?></h5>
 
-
-        </div>
+            </div>
     </div>
 
     <?php endforeach; ?>
