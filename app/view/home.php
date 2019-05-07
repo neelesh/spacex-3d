@@ -76,6 +76,6 @@
         <br>
 
 
-    <?php include "app/view/rocket_selection.php";?>
+        <?php include "app/view/rocket_selection.php";?>
         
     </div>

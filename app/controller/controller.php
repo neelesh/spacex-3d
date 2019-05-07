@@ -17,23 +17,18 @@ class Controller {
     
 
     // Single page application
-    // Satisfy all needs, the AJAX will be responsible for showing and hiding.
+    // Satisfy all needs, the JS will be responsible for showing and hiding.
 	function spa()
 	{	
-		$data = $this->model->dbGetData()
-		;
+		$data = $this->model->dbGetData();
         $this->load->view('home', $data);
 		$this->load->view('about', $data['elon']);
-		
         $this->load->view('beyond', $data);
 
-	
+		// remove everything but rockets array
 		unset($data['mars']);
 		unset($data['elon']);
 		$this->load->view('rockets', $data);
-
-
-
     }
     
 
