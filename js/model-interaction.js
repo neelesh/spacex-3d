@@ -1,9 +1,9 @@
-var spinning = true;
+var spinning = false;
 var lightOn = true;
 
 function spin(namespace) {
     spinning = !spinning;
-    document.getElementById(namespace+'__TimeSensor001-TIMER').setAttribute('enabled', spinning.toString());
+    document.getElementById(namespace+'__Rocket-TIMER').setAttribute('enabled', spinning.toString());
 }
 
 function wireframe(namespace) {
