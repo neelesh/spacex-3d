@@ -39,9 +39,9 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/slides/<?php echo $data['capsule']['fileName'].= '.jpg';?>" alt="Fo slide">
+                            <img class="d-block w-100" src="img/slides/<?php echo $data['falcon9']['fileName'].= '.jpg';?>" alt="Fo slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5> <?php echo strtoupper( $data['capsule']['title'])?></h5>
+                                <h5> <?php echo strtoupper( $data['falcon9']['title'])?></h5>
                                 <!-- <p> ... </p> -->
                             </div>
                         </div>

@@ -27,9 +27,9 @@ function booster(){
 }
 
 
-function capsule(){
+function falcon9(){
     hideModels();
-    $("#capsule").show();
+    $("#falcon9").show();
 
 }
 
@@ -44,7 +44,7 @@ function hideModels(){
     $("#starhopper").hide();
     $("#starship").hide();
     $("#booster").hide();
-    $("#capsule").hide();
+    $("#falcon9").hide();
 }
 
 function hideAll(){

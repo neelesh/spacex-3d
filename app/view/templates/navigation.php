@@ -23,7 +23,7 @@
                       <a onclick="starhopper()" class="dropdown-item" >Starhopper</a>
                       <a onclick="starship()" class="dropdown-item" >Starship</a>
                       <a onclick="booster()" class="dropdown-item" >Superheavy Booster</a>
-                      <a onclick="capsule()" class="dropdown-item" >Dragon Capsule</a>
+                      <a onclick="falcon9()" class="dropdown-item" >Falcon9</a>
                     </div>
                   </li>
                 <li class="nav-item">
