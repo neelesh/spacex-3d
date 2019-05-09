@@ -19,9 +19,24 @@
 
 canvas {outline-color:transparent;}
 
+body {
+  color:white !important;
+}
+a:not([href]):not([tabindex]){
+  color: white !important;
+}
+.dropdown-item > a:hover{
+  color: white;
+}
+
+
+
 .nav-link, .dropdown-menu, .dropdown-item, .pointer{
   cursor: pointer;
+  cursor: pointer;
 }
+
+
 
 .video-container {
 	position:relative;

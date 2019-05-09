@@ -5,11 +5,21 @@
         <h1 class="heading"><span >GOING BEYOND</span></h1>
         <div class="jumbotron" style="font-size:18px;">
             <p class="p1"><span class="s1">This is a web application capable of viewing and interacting with 3D Models. I have chosen to use SpaceX Rockets as the theme. This application was created using X3D with a PHP MVC. This is also a Single Page Application where the content is data-driven using SQLite. I have taken additional steps in creating this application that is outside the course material.</span></p>
-            <p class="p1"><span class="s1">The code for this project can be seen on my <a href="https://github.com/neelesh/spacex-3d">Github</a>.</span></p>
+            <p class="p1"><span class="s1">The code for this project can be seen on my <a href="https://github.com/neelesh/spacex-3d">Github</a>.</span> You can also download the code 3D models in VRML form here:</p>
+            
+			<form method="get" action="http://users.sussex.ac.uk/~nd226/3dapp/nd226_site.zip">
+                <button class="btn btn-primary" type="submit">Download Code</button>
+            </form>
+			<br>
+            <form method="get" action="http://users.sussex.ac.uk/~nd226/3dapp/assignment/nd226_models.zip">
+                <button class="btn btn-primary" type="submit">Download VRML Models</button>
+            </form>
+
+            <br>
             <br>
             
-            <h3 class="p1"><span class="s1">X3D</span></h3>
-            <p class="p1"><span class="s1">X3D My models are complex but are still at a suitable polygon count for rendering into a web browser. I have chosen to create SpaceX rockets. I started modeling low poly, blocking out the rockets, with the intention to add additional detail later on. The silver rockets mimic the stainless steel design using a glossy material I made in 3DS Max. Starhopper and Starship have a texture each, which is of the American flag.</span></p>
+            <h3 class="p1"><span class="s1">3D Models</span></h3>
+            <p class="p1"><span class="s1">My models are complex but are still at a suitable polygon count for rendering into a web browser. I have chosen to create SpaceX rockets. I started modeling low poly, blocking out the rockets, with the intention to add additional detail later on. The silver rockets mimic the stainless steel design using a glossy material I made in 3DS Max. Starhopper and Starship have a texture each, which is of the American flag.</span></p>
             <img class="d-block w-100" src="img/beyond/wireframes.png">
             
             <br>

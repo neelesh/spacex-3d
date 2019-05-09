@@ -7,15 +7,15 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
             <ul class="navbar-nav">
-                <li class="nav-item active"  onclick="home()" >
+                <li id="home-button" class="nav-item"  onclick="home()" >
                     <a class="nav-link" >Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li id="about-button" class="nav-item">
                     <a class="nav-link"  onclick="about()" >About</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li id="rockets-button" class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
                       Rockets
                     </a>
@@ -31,7 +31,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link"  onclick="beyond()" >Beyond</a>
+                    <a id="beyond-button"  class="nav-link"  onclick="beyond()" >Beyond</a>
                 </li>
 
             </ul>

@@ -3,16 +3,19 @@
 function home(){
     hideAll();
     $("#home").show();
+    $("#home-button").addClass("active");
 }
 
 function rockets(){
     hideAll();
     $("#rockets").show();
+    $("#rockets-button").addClass("active");    
 }
 
 function beyond(){
     hideAll();
     $("#beyond").show();
+    $("#beyond-button").addClass("active");    
 }
 
 function starhopper(){
@@ -28,20 +31,19 @@ function starship(){
 function booster(){
     hideModels();
     $("#booster").show();
-
 }
 
 
 function falcon9(){
     hideModels();
     $("#falcon9").show();
-
 }
 
 
 function about(){
     hideAll();
     $("#about").show();
+    $("#about-button").addClass("active");
 }
 
 
@@ -57,4 +59,9 @@ function hideAll(){
     $("#about").hide();
     $("#rockets").hide();
     $("#beyond").hide();
+
+    $("#home-button").removeClass("active");
+    $("#about-button").removeClass("active");
+    $("#rockets-button").removeClass("active");
+    $("#beyond-button").removeClass("active");
 }
