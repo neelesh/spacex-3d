@@ -12,6 +12,7 @@ class Controller {
 		$this->load = new Load(); 
 		$this->model = new Model();
 		// determine what page you are on
+		if($pageURI='/') $pageURI = 'spa';
 		if($pageURI != null) $this->$pageURI();
     }
     
